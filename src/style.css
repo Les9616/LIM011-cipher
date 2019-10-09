@@ -1,0 +1,130 @@
+#pag-Cifrado{
+    display:none;
+  }
+
+#pag-Descifrado{
+    display:none;
+  }
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    padding: 50px 300px 100px;    
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(dos.png);
+    background-repeat: repeat-y;
+    width: 50%;
+    text-align: center;
+} 
+
+img{
+    width:60px;
+    height:65px;
+    align-content: center;
+    padding: 7px;
+   } 
+header {
+    font-size: 4em;
+    font-weight: 600;
+    /* padding: 5px; */
+    margin: 40px;
+    -webkit-text-stroke: 3px white;
+    color: white;
+}
+p{
+    font-size: 2em;
+}
+form{
+    text-align: center;
+}
+#botonC{
+    font-size: 22px;
+    font-weight: 600;
+    size: 15px;
+    padding: 5px;
+    border: 2px solid gray; 
+    border-radius: 10px 10px 10px 10px;
+    width: 250px;
+    height: 60px;
+}
+#botonD{
+    font-size: 22px;
+    font-weight: 600;
+    size: 15px;
+    padding: 5px;
+    border: 2px solid gray; 
+    border-radius: 10px 10px 10px 10px;
+    width: 250px;
+    height: 60px;
+}
+button:hover{
+    color: #1883ba;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+input{
+    width: 120px;
+    height: 25px;
+    border: 2px solid gray; 
+    border-radius: 10px 10px 10px 10px;
+}
+textarea{
+    font-size: 15px;
+    font-weight: 600;
+    width: 350px;
+    height: 60px;
+    border: 2px solid gray; 
+    border-radius: 10px 10px 10px 10px;
+}
+#cifrar{
+    font-size: 18px;
+    font-weight: 600;
+    size: 15px;
+    padding: 3px;
+    border: 2px solid gray; 
+    border-radius: 10px 10px 10px 10px;
+    width: 100px;
+    height: 35px;
+}
+#descifrar{
+    font-size: 18px;
+    font-weight: 600;
+    size: 15px;
+    padding: 3px;
+    border: 2px solid gray; 
+    border-radius: 10px 10px 10px 10px;
+    width: 120px;
+    height: 35px;
+}
+#regresar{
+    font-size: 18px;
+    font-weight: 600;
+    size: 15px;
+    padding: 3px;
+    border: 2px solid gray; 
+    border-radius: 10px 10px 10px 10px;
+    width: 70px;
+    height: 35px;
+}
+#regresar1{
+    font-size: 18px;
+    font-weight: 600;
+    size: 15px;
+    padding: 3px;
+    border: 2px solid gray; 
+    border-radius: 10px 10px 10px 10px;
+    width: 70px;
+    height: 35px;
+}
+
+footer{
+    font-size: 8px;
+}
