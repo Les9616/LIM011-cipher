@@ -19,6 +19,10 @@ window.cipher = {
           newStrCode = (strCode - 97 + offset) % 26 + 97;
           newStr = String.fromCharCode(newStrCode);
           encodedStr += newStr;
+        } else if(strCode >= 48 && strCode <= 57){
+          newStrCode = (strCode - 48 + offset)% 10 + 48;
+          newStr = String.fromCharCode(newStrCode);
+          encodedStr += newStr;  
         } else {
           newStr = String.fromCharCode(strCode);
           encodedStr += newStr;
@@ -46,6 +50,10 @@ window.cipher = {
           newStrCode = (strCode - 122 - offset) % 26 + 122;
           newStr = String.fromCharCode(newStrCode);
           decodedStr += newStr;
+        } else if(strCode >= 48 && strCode <= 57){
+          newStrCode = (strCode - 48 - offset)% 10 + 48;
+          newStr = String.fromCharCode(newStrCode);
+          decodedStr += newStr;  
         } else { 
           decodedStr += String.fromCharCode(strCode);
         }

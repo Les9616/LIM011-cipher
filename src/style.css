@@ -24,8 +24,8 @@ body{
 img{
     width:60px;
     height:65px;
-    align-content: center;
-    padding: 7px;
+   vertical-align: middle;
+    margin: 10px;
    } 
 header {
     font-size: 4em;
@@ -79,8 +79,9 @@ input{
 textarea{
     font-size: 15px;
     font-weight: 600;
+    resize: none; 
     width: 350px;
-    height: 60px;
+    height: 80px;
     border: 2px solid gray; 
     border-radius: 10px 10px 10px 10px;
 }
@@ -122,6 +123,26 @@ textarea{
     border: 2px solid gray; 
     border-radius: 10px 10px 10px 10px;
     width: 70px;
+    height: 35px;
+}
+#limpiar{
+    font-size: 18px;
+    font-weight: 600;
+    size: 15px;
+    padding: 3px;
+    border: 2px solid gray; 
+    border-radius: 10px 10px 10px 10px;
+    width: 80px;
+    height: 35px;
+}
+#limpiarD{
+    font-size: 18px;
+    font-weight: 600;
+    size: 15px;
+    padding: 3px;
+    border: 2px solid gray; 
+    border-radius: 10px 10px 10px 10px;
+    width: 80px;
     height: 35px;
 }
 
