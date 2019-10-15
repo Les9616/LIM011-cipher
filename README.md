@@ -17,12 +17,11 @@
 
   + Imagen del prototipo final.
 
-    ![Imagen 1][1]  ![Imagen 2][2]  
-          ![Imagen 3][3]
+    ![Imagen 1][1]  ![Imagen 2][2]  ![Imagen 3][3]
 
- [1]: protot-1.png 
- [2]: proto-2.png  
- [3]: proto-3.png 
+ [1]: proto-v1.png 
+ [2]: proto-v2.png  
+ [3]: proto-v3.png 
 
 
 ## Objetivos de aprendizaje Cipher
