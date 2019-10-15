@@ -16,10 +16,11 @@
      3. El botón de Clave no solo sea editable sino sea un botón que aumente o reduzca la numeración.
 
   + Imagen del prototipo final.
-  
-    ![Imagen 1][1]  ![Imagen 2][2]  ![Imagen 3][3]
 
- [1]: proto-1.png 
+    ![Imagen 1][1]  ![Imagen 2][2]  
+          ![Imagen 3][3]
+
+ [1]: protot-1.png 
  [2]: proto-2.png  
  [3]: proto-3.png 
 
