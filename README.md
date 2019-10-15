@@ -3,7 +3,7 @@
 ***
   LabResults es una app para cifrar y descifrar diagnósticos a los resultados de examenes medicos hechos en Laboratorios. Le ofrecemos la seguridad a la información medica que sera cifrada y descifrada a través de una clave o número de desplazamientos.
 
-  ![Imagen Final](final.PNG)
+  ![Imagen Final](final.png)
 
   + Para esta app tendriamos dos usuarios: los laboratorios y los pacientes que acuden a estos.
      
@@ -16,11 +16,12 @@
      3. El botón de Clave no solo sea editable sino sea un botón que aumente o reduzca la numeración.
 
   + Imagen del prototipo final.
+  
     ![Imagen 1][1]  ![Imagen 2][2]  ![Imagen 3][3]
 
- [1]: proto-1.png
- [2]: proto-2.png 
- [2]: proto-3.png 
+ [1]: proto-1.png 
+ [2]: proto-2.png  
+ [3]: proto-3.png 
 
 
 ## Objetivos de aprendizaje Cipher
