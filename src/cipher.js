@@ -1,4 +1,4 @@
-﻿window.cipher = {
+window.cipher = {
     // Función cifrado
     encode: (offset, string) => {
       // Declarando variables
@@ -60,55 +60,4 @@
       }
       return decodedString;
     },
-  }
-      let newCode = 0;
-      let newString = '';
-      let decodedString = '';
-      // Recorriendo los caracteres del string
-      for (let i = 0; i < string.length; i++) {
-        // Obteniendo el código ASCII de cada caracter
-        code = string.charCodeAt(i);
-        //Formula descifrado
-        if (code >= 65 && code <= 90) {
-          newCode = (code - 90 - offset) % 26 + 90;
-          newString = String.fromCharCode(newCode);
-          decodedString += newString;
-        } else if (code >= 97 && code <= 122) {
-          newCode = (code - 122 - offset) % 26 + 122;
-          newString = String.fromCharCode(newCode);
-          decodedString += newString;
-        } else if(code >= 48 && code <= 57){
-          newCode = (code - 57 - offset)% 10 + 57;
-          newString = String.fromCharCode(newCode);
-          decodedString += newString;  
-        } else { 
-          decodedString += String.fromCharCode(code);
-        }
-      }
-      return decodedString;
-    },
-  }
-          decodedStr += newStr;
-        } else if (strCode >= 97 && strCode <= 122) {
-          newStrCode = (strCode - 122 - offset) % 26 + 122;
-          newStr = String.fromCharCode(newStrCode);
-          decodedStr += newStr;
-        } else if(strCode >= 48 && strCode <= 57){
-          newStrCode = (strCode - 48 - offset)% 10 + 48;
-          newStr = String.fromCharCode(newStrCode);
-          decodedStr += newStr;  
-        } else { 
-          decodedStr += String.fromCharCode(strCode);
-        }
-      }
-      return decodedStr;
-    },
-    // Función de cifrado y descifrado con offset fijo
-    createCipherWithOffset: offset => {
-      const result = {
-        encode: string => cipher.encode(offset, string),
-        decode: string => cipher.decode(offset, string)
-      };
-      return result;
-    }
   }

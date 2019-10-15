@@ -1,16 +1,16 @@
+*{
+    height: 100hv;
+    font-family: 'Quicksand', sans-serif;
+}
 .ocultar{
     display:none;
-  }
-  
-*{
-    font-family: 'Quicksand', sans-serif;
 }
 body{
     padding: 50px 300px 100px;    
     background-image: 
     linear-gradient(
-      rgba(112, 190, 214, 0.705),
-      rgba(38, 103, 136, 0.5)
+    rgba(112, 190, 214, 0.705),
+    rgba(38, 103, 136, 0.5)
     ),
     url(dos.png);
     background-repeat: unset;
@@ -20,13 +20,34 @@ body{
     display: block;
 } 
 
-img{
+#logo{
     width:60px;
     height:65px;
-   vertical-align: middle;
+    position: relative;
+    left: 2px;
+    vertical-align: middle;
     margin: 10px;
-   } 
+} 
+#mic{
+    width:65px;
+    height:65px;
+    position: absolute;
+    left: 500px;
+    top:320px;
+    
+    z-index: 1;
+}
+#team{
+    width:70px;
+    height:75px;
+    position: absolute;
+    right: 520px;
+    top: 320px;
+    z-index: 1;
+}
 header {
+    position: relative;
+    left: 17px;
     font-size: 4em;
     font-weight: 600;
     padding: 10px 10px; 
@@ -37,23 +58,32 @@ header {
 p{
     font-size: 2em;
 }
+.phrase{
+position: relative;
+left: 11px;
+}
 form{
     text-align: center;
 }
 .btn-general{
-margin: 10px;
+    float: left;
+    position: relative;
+    top: 75px;
+    left: 90px;
+    margin: 10px;
+    z-index: 1;
 }
 .cont-medio{
-margin: 10px;
+    margin: 10px;
 }
 .cont-final{
-margin: 10px;
+    margin: 10px;
 }
 .cont-mediod{
-margin: 10px;
+    margin: 10px;
 }
 .cont-finald{
-margin: 10px;
+    margin: 10px;
 }
 #ingreseTexto{
     font-size: 20px;
@@ -68,7 +98,7 @@ margin: 10px;
     margin: 2px;
 }
 #botonC{
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 600;
     size: 15px;
     padding: 5px;
@@ -78,7 +108,7 @@ margin: 10px;
     height: 60px;
 }
 #botonD{
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 600;
     size: 15px;
     padding: 5px;
@@ -174,5 +204,9 @@ textarea{
 }
 
 footer{
+    clear: both;
+    position: relative;
+    top: 150px;
+    bottom: 2px;
     font-size: 8px;
 }
